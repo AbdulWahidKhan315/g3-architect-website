@@ -101,7 +101,8 @@ nav a{
     header{
         padding: 20px;
     }
-    nav{
+    nav,
+    .quick-list-section{
         flex-direction: column;
     }
     .nav-title{
@@ -110,6 +111,13 @@ nav a{
     .banner-title{
         font-size: 3.5rem;
     }
+    .quick-list-section{
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+    .quick-img-container{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* responsive for tablet or medium device */
@@ -117,7 +125,8 @@ nav a{
     header{
         padding: 50px;
     }
-    nav{
+    nav,
+    .quick-list-section{
         flex-direction: column;
     }
 }
