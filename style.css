@@ -59,6 +59,41 @@ nav a{
     width: 100%;
     margin-top: 20px;
 }
+/* main styles start here.. */
+.main-tag{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.quick-list-section{
+    margin-top: 5.3rem;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+}
+.quick-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.quick-title{
+    font-size: 2.8rem;
+}
+.quick-list{
+    color: #727272;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.features-orange{
+    color: #FF900E;
+    font-weight: 700;
+}
+.quick-description{
+    color: #727272;
+    font-weight: 400;
+}
 
 
 /* responsive for mobile devices */
