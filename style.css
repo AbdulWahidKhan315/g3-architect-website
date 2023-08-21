@@ -146,6 +146,8 @@ nav a {
     border-radius: 8px;
     width: 300px;
     padding: 5px 30px;
+    position: relative;
+    bottom: 120px;
 }
 .ten-years h1{
     font-size: 4rem;
@@ -156,6 +158,9 @@ nav a {
     margin-top: 5px;
     font-size: 1.5rem;
     font-weight: 500;
+}
+.feature-img-container img{
+    margin-left: 100px;
 }
 
 /* some facts style here */
@@ -239,7 +244,8 @@ nav a {
     nav,
     .quick-list-section,
     .facts-card-container,
-    .sponsors-img-container {
+    .sponsors-img-container,
+    .feature-container {
         flex-direction: column;
     }
 
@@ -275,6 +281,14 @@ nav a {
     .footer-container {
         margin: 3rem auto;
     }
+    .ten-years{
+        bottom: 0;
+        margin-left: 20px;
+    }
+    .feature-img-container img{
+        width: 90%;
+        margin-left: 20px;
+    }
 }
 
 /* responsive for tablet or medium device */
@@ -285,7 +299,16 @@ nav a {
 
     nav,
     .quick-list-section,
-    .sponsors-img-container {
+    .sponsors-img-container,
+    .feature-container {
         flex-direction: column;
+    }
+    .ten-years{
+        bottom: 0;
+        margin-left: 20px;
+    }
+    .feature-img-container img{
+        width: 90%;
+        margin-left: 20px;
     }
 }
