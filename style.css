@@ -117,6 +117,46 @@ nav a {
 }
 
 /* features style here */
+.feature-container {
+    margin-top: 7rem;
+    display: flex;
+    gap: 7rem;
+}
+
+.feature-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    
+}
+
+.feature-content-container .card {
+    margin-top: 1.4rem;
+    padding: 1.9rem;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.ten-years{
+    text-align: center;
+    color: white;
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 300px;
+    padding: 5px 30px;
+}
+.ten-years h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.ten-years p{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 
 /* some facts style here */
 .facts-section {
@@ -142,39 +182,45 @@ nav a {
     text-align: center;
     padding: 30px;
 }
-.facts-card-container .facts-state{
+
+.facts-card-container .facts-state {
     color: #424242;
     font-size: 2.8rem;
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 5px;
 }
-.facts-card-container .card-title{
+
+.facts-card-container .card-title {
     color: #727272;
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 2px;
 }
+
 /* sponsors style here. */
-.sponsors{
+.sponsors {
     margin-top: 10rem;
     text-align: center;
 }
-.sponsors-title{
+
+.sponsors-title {
     color: #131313;
     font-weight: 700;
     font-size: 2.8rem;
     margin-bottom: 1.3rem;
 }
-.sponsors-img-container{
+
+.sponsors-img-container {
     margin-top: 3rem;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     gap: 1.5rem;
 }
+
 /* footer style */
-.footer-container{
+.footer-container {
     color: #424242;
     background-color: #FFF4E7;
     text-align: center;
@@ -193,7 +239,7 @@ nav a {
     nav,
     .quick-list-section,
     .facts-card-container,
-    .sponsors-img-container{
+    .sponsors-img-container {
         flex-direction: column;
     }
 
@@ -213,16 +259,20 @@ nav a {
     .quick-img-container {
         grid-template-columns: 1fr;
     }
+
     .facts-section {
         margin-top: 3rem;
     }
-    .facts-card-container{
+
+    .facts-card-container {
         margin-top: 1rem;
     }
-    .sponsors{
+
+    .sponsors {
         margin-top: 3rem;
     }
-    .footer-container{
+
+    .footer-container {
         margin: 3rem auto;
     }
 }
